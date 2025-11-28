@@ -2,3 +2,14 @@
 #los codigos deben de estar separadas por comas, excepto la ultima,
 #el simbolo ">" indica que se creara un documento en donde se depositaran las secuencias descargadas.
 curl -s "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nucleotide&rettype=fasta&id=AM181431,AM947671,KF808310" > Geosm/Geosmithia.fasta
+
+
+#rm elimina un documento
+rm ejemplo.fasta
+
+#grep dentro de un documento o documentos lo que este dentro de los " " espacio nombre del documento
+grep "Geosmithia" ejemplo.fasta
+
+
+#Para buscar y contar 
+"grep -c "Geo" ejemplo.fasta
