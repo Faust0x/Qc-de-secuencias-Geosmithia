@@ -1,3 +1,8 @@
 #Control de calidad
 #Todo correra dentro de un ambiente 
-#
+# La variable de entorno PATH es una variable de Linux que contiene una lista de todas las rutas en
+donde se encuentran los archivos ejecutables que podemos invocar desde cualquier directorio.
+
+#descargar intrucciones esenciales
+sudo apt-get install -y build essential
+#te pedira la contraseña, la cual no se vera en el pront pero debe escribirla y dar Enter  
