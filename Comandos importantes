@@ -1,0 +1,4 @@
+#Para descargar secuencias de referencia
+#los codigos deben de estar separadas por comas, excepto la ultima,
+#el simbolo ">" indica que se creara un documento en donde se depositaran las secuencias descargadas.
+curl -s "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nucleotide&rettype=fasta&id=AM181431,AM947671,KF808310" > Geosm/Geosmithia.fasta
