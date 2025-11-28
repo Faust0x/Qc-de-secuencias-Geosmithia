@@ -13,3 +13,8 @@ grep "Geosmithia" ejemplo.fasta
 
 #Para buscar y contar 
 "grep -c "Geo" ejemplo.fasta
+
+#Para saber la ruta de origen de un comando utilizamos el comando which
+#ej: para saber la ubicación de iqtree2
+which iqtree2
+
