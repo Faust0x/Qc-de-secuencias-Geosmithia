@@ -1,0 +1,6 @@
+#Anotacion con AUGUSTU
+
+# $augustus [parametros] --species=SPECIES queryfilename.fasta > output.gff
+#para hacerlo con gesomithias
+augustus --protein=on --species=fusarium_graminearum 06carpeta/example.fasta
+
