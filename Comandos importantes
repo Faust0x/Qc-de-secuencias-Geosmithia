@@ -18,3 +18,12 @@ grep "Geosmithia" ejemplo.fasta
 #ej: para saber la ubicación de iqtree2
 which iqtree2
 
+$Ctrl+c 
+#detiene los procesos que se esten ejecutando en el primer plano
+
+$q
+#te saca de la interfaz de htop
+
+
+$nproc
+te dice el numero de nucleos del equipo
